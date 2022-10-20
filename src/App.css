@@ -88,7 +88,7 @@ body {
   height: 100%;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  background: rgb(151, 138, 138);
+  background: rgb(138, 147, 151);
   transition: 0.5s linear;
   z-index: -4;
 }
@@ -144,7 +144,7 @@ body {
 @media screen and (max-width: 500px) {
   .name {
     height: 100vh;
-    /* margin-top: 1rem; */
+    margin-top: 1.3rem;
   }
 
   .name > h2 {
@@ -169,6 +169,7 @@ body {
     border-radius: 6px;
     margin-right: .5rem;
     margin-left: .5rem;
+    box-shadow: none;
   }
 
   .name_second > button::before {
@@ -199,10 +200,4 @@ body {
     border-radius: .8rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(202, 52, 52, 0.23);
   }
-
-  /* 
-  .name > p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  } */
 }
